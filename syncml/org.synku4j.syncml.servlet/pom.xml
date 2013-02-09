@@ -1,0 +1,29 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.synku4j.syncml</groupId>
+	<artifactId>org.synku4j.syncml.servlet</artifactId>
+	<version>0.1-SNAPSHOT</version>
+	<name>Synku4J SYNCML servlet</name>
+	<packaging>jar</packaging>
+	<parent>
+		<artifactId>org.synku4j.syncml</artifactId>
+		<groupId>org.synku4j.syncml</groupId>
+		<version>0.2-SNAPSHOT</version>
+	</parent>
+	<dependencies>
+		<!-- internal -->
+		<dependency>
+			<groupId>org.synku4j.syncml</groupId>
+			<artifactId>org.synku4j.syncml.spi</artifactId>
+			<version>0.2-SNAPSHOT</version>
+		</dependency>
+
+		<!-- external -->
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
+</project>

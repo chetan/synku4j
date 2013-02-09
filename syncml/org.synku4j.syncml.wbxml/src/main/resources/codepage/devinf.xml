@@ -1,0 +1,49 @@
+<WBXML>
+	<Document publicID="0x0FD2" formalPublicID="-//SYNCML//DTD DevInf 1.1//EN">
+		<CodePage index="0" publicID="0x0FD2" formalPublicID="-//SYNCML//DTD DevInf 1.1//EN">
+			<field name="CTCap" token="0x05" />
+			<field name="CTType" token="0x06" />
+			<field name="DataStore" token="0x07"
+				modelClass="org.synku4j.syncml.model.devinf.DataStore" />
+			<field name="DataType" token="0x08" />
+			<field name="DevID" token="0x09" />
+			<field name="DevInf" token="0x0A"
+				modelClass="org.synku4j.syncml.model.devinf.DevInf" />
+			<field name="DevTyp" token="0x0B" />
+			<field name="DisplayName" token="0x0C" />
+			<field name="DSMem" token="0x0D"
+				modelClass="org.synku4j.syncml.model.devinf.DsMem" />
+			<field name="Ext" token="0x0E" />
+			<field name="FwV" token="0x0F" />
+			<field name="HwV" token="0x10" />
+			<field name="Man" token="0x11" />
+			<field name="MaxGUIDSize" token="0x12" />
+			<field name="MaxID" token="0x13" />
+			<field name="MaxMem" token="0x14" />
+			<field name="Mod" token="0x15" />
+			<field name="OEM" token="0x16" />
+			<field name="ParamName" token="0x17" />
+			<field name="PropName" token="0x18" />
+			<field name="Rx" token="0x19" modelClass="org.synku4j.syncml.model.devinf.Rx" />
+			<field name="RxPref" token="0x1A"
+				modelClass="org.synku4j.syncml.model.devinf.RxPref" />
+			<field name="SharedMem" token="0x1B" />
+			<field name="Size" token="0x1C" />
+			<field name="SourceRef" token="0x1D" />
+			<field name="SwV" token="0x1E" />
+			<field name="SyncCap" token="0x1F"
+				modelClass="org.synku4j.syncml.model.devinf.SyncCap" />
+			<field name="SyncType" token="0x20" />
+			<field name="Tx" token="0x21" />
+			<field name="TxPref" token="0x22" />
+			<field name="ValEnum" token="0x23" />
+			<field name="VerCT" token="0x24" />
+			<field name="VerDTD" token="0x25" />
+			<field name="Xnam" token="0x26" />
+			<field name="Xval" token="0x27" />
+			<field name="UTC " token="0x28" />
+			<field name="SupportNumberOfChanges" token="0x29" />
+			<field name="SupportLargeObjs" token="0x2a" />
+		</CodePage>
+	</Document>
+</WBXML>

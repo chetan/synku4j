@@ -1,0 +1,76 @@
+<WBXML>
+	<Document publicID="0x0FD3" formalPublicID="-//SYNCML//DTD SyncML 1.1//EN">
+		<CodePage index="0" publicID="0x0FD3" formalPublicID="-//SYNCML//DTD SyncML 1.1//EN">
+			<field name="Add" token="0x05" modelClass="org.synku4j.syncml.model.Add" />
+			<field name="Alert" token="0x06" modelClass="org.synku4j.syncml.model.Alert" />
+			<field name="Archive" token="0x07" />
+			<field name="Atomic" token="0x08" modelClass="org.synku4j.syncml.model.Atomic" />
+			<field name="Chal" token="0x09" modelClass="org.synku4j.syncml.model.Challenge" />
+			<field name="Cmd" token="0x0a" />
+			<field name="CmdID" token="0x0b" />
+			<field name="CmdRef" token="0x0c" />
+			<field name="Copy" token="0x0d" modelClass="org.synku4j.syncml.model.Copy" />
+			<field name="Cred" token="0x0e" modelClass="org.synku4j.syncml.model.Credential" />
+			<field name="Data" token="0x0f" />
+			<field name="Delete" token="0x10" modelClass="org.synku4j.syncml.model.Delete" />
+			<field name="Exec" token="0x11" modelClass="org.synku4j.syncml.model.Delete" />
+			<field name="Final" token="0x12" />
+			<field name="Get" token="0x13" modelClass="org.synku4j.syncml.model.Get" />
+			<field name="Item" token="0x14" modelClass="org.synku4j.syncml.model.Item" />
+			<field name="Lang" token="0x15" />
+			<field name="LocName" token="0x16" />
+			<field name="LocURI" token="0x17" />
+			<field name="Map" token="0x18" modelClass="org.synku4j.syncml.model.Map" />
+			<field name="MapItem" token="0x19" modelClass="org.synku4j.syncml.model.MapItem" />
+			<field name="Meta" token="0x1a" />
+			<field name="MsgID" token="0x1b" />
+			<field name="MsgRef" token="0x1c" />
+			<field name="NoResp" token="0x1d" />
+			<field name="NoResults" token="0x1e" />
+			<field name="Put" token="0x1f" modelClass="org.synku4j.syncml.model.Put" />
+			<field name="Replace" token="0x20" modelClass="org.synku4j.syncml.model.Replace" />
+			<field name="RespURI" token="0x21" />
+			<field name="Results" token="0x22" modelClass="org.synku4j.syncml.model.Results" />
+			<field name="Search" token="0x23" modelClass="org.synku4j.syncml.model.Search" />
+			<field name="Sequence" token="0x24"
+				modelClass="org.synku4j.syncml.model.Sequence" />
+			<field name="SessionID" token="0x25" />
+			<field name="SftDel" token="0x26" />
+			<field name="Source" token="0x27" />
+			<field name="SourceRef" token="0x28" />
+			<field name="Status" token="0x29" modelClass="org.synku4j.syncml.model.Status" />
+			<field name="Sync" token="0x2A" modelClass="org.synku4j.syncml.model.Sync" />
+			<field name="SyncBody" token="0x2B"
+				modelClass="org.synku4j.syncml.model.SyncBody" />
+			<field name="SyncHdr" token="0x2C"
+				modelClass="org.synku4j.syncml.model.SyncHeader" />
+			<field name="SyncML" token="0x2D" modelClass="org.synku4j.syncml.model.SyncML" />
+			<field name="Target" token="0x2E" />
+			<field name="TargetRef" token="0x2F" />
+			<field name="RESERVED" token="0x30" />
+			<field name="VerDTD" token="0x31" />
+			<field name="VerProto" token="0x32" />
+			<field name="NumberOfChanged" token="0x33" />
+			<field name="MoreData" token="0x34" />
+		</CodePage>
+
+		<CodePage index="1" formalPublicID="-//SYNCML//DTD MetInf 1.1//EN">
+			<field name="Anchor" token="0x05" modelClass="org.synku4j.syncml.model.Anchor" />
+			<field name="EMI" token="0x06" />
+			<field name="Format" token="0x07" />
+			<field name="FreeID" token="0x08" />
+			<field name="FreeMem" token="0x09" />
+			<field name="Last" token="0x0a" />
+			<field name="Mark" token="0x0b" />
+			<field name="MaxMsgSize" token="0x0c" />
+			<field name="Mem" token="0x0d" />
+			<field name="MetInf" token="0x0e" />
+			<field name="Next" token="0x0f" />
+			<field name="NextNonce" token="0x10" />
+			<field name="SharedMem" token="0x11" />
+			<field name="Size" token="0x12" />
+			<field name="Type" token="0x13" />
+			<field name="Version" token="0x14" />
+		</CodePage>
+	</Document>
+</WBXML>

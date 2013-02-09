@@ -1,0 +1,20 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.synku4j.activesync</groupId>
+	<artifactId>org.synku4j.activesync.wbxml</artifactId>
+	<version>0.2-SNAPSHOT</version>
+	<packaging>jar</packaging>
+	<name>Synku4J ACTIVESYNC wbxml</name>
+	<parent>
+		<groupId>org.synku4j.activesync</groupId>
+		<artifactId>org.synku4j.activesync</artifactId>
+		<version>0.2-SNAPSHOT</version>
+	</parent>
+	<dependencies>
+		<dependency>
+			<groupId>org.synku4j.wbxml</groupId>
+			<artifactId>org.synku4j.wbxml.core</artifactId>
+			<version>0.2-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>

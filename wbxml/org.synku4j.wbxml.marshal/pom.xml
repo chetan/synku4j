@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.synku4j.wbxml</groupId>
+	<artifactId>org.synku4j.wbxml.marshal</artifactId>
+	<version>0.2-SNAPSHOT</version>
+	<name>Synku4J WBXML marshal</name>
+	<packaging>jar</packaging>
+	<parent>
+		<artifactId>org.synku4j.wbxml</artifactId>
+		<groupId>org.synku4j.wbxml</groupId>
+		<version>0.2-SNAPSHOT</version>
+	</parent>
+	<dependencies>
+		<dependency>
+			<groupId>org.synku4j.wbxml</groupId>
+			<artifactId>org.synku4j.wbxml.core</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.synku4j.wbxml</groupId>
+			<artifactId>org.synku4j.wbxml.encoder</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.synku4j.wbxml</groupId>
+			<artifactId>org.synku4j.wbxml.decoder</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.synku4j.wbxml</groupId>
+			<artifactId>org.synku4j.wbxml.util</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.synku4j.wbxml</groupId>
+			<artifactId>org.synku4j.wbxml.util</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+	</dependencies>
+</project>

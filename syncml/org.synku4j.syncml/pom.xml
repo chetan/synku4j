@@ -1,0 +1,41 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+	<groupId>org.synku4j.syncml</groupId>
+	<artifactId>org.synku4j.syncml</artifactId>
+	<version>0.2-SNAPSHOT</version>
+	<name>Synku4J SYNCML</name>
+	<parent>
+		<artifactId>org.synku4j</artifactId>
+		<groupId>org.synku4j</groupId>
+		<version>0.2-SNAPSHOT</version>
+	</parent>
+	<packaging>pom</packaging>
+	<modules>
+		<module>../org.synku4j.syncml.wbxml</module>
+		<module>../org.synku4j.syncml.model</module>
+		<module>../org.synku4j.syncml.spi</module>
+		<module>../org.synku4j.syncml.servlet</module>
+	</modules>
+
+	<dependencies>
+		<dependency>
+			<groupId>org.testng</groupId>
+			<artifactId>testng</artifactId>
+			<version>5.10</version>
+			<scope>test</scope>
+			<classifier>jdk15</classifier>
+		</dependency>
+	</dependencies>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>javax.servlet</groupId>
+				<artifactId>servlet-api</artifactId>
+				<scope>provided</scope>
+				<version>2.5</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+</project>

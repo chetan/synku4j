@@ -1,0 +1,7 @@
+<WBXML>
+	<Document publicID="0x001" formalPublicID="-//SYNKY4J//DTD Test 1.1//EN">
+		<CodePage index="1" formalPublicID="-//SYNKY4J//DTD Test 1.1//EN">
+			<field name="Field1" token="0x05" />
+		</CodePage>
+	</Document>
+</WBXML>

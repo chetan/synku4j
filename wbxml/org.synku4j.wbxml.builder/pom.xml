@@ -9,6 +9,7 @@
 		<groupId>org.synku4j.wbxml</groupId>
 		<artifactId>org.synku4j.wbxml</artifactId>
 		<version>0.2-SNAPSHOT</version>
+		<relativePath>../org.synku4j.wbxml</relativePath>
 	</parent>
 	<dependencies>
 		<dependency>
@@ -16,7 +17,7 @@
 			<artifactId>org.synku4j.wbxml.core</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
@@ -24,7 +25,7 @@
 			<classifier>jdk15</classifier>
 			<scope>test</scope>
 		</dependency>
-		
+
 		<dependency>
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
@@ -37,6 +38,6 @@
 			<groupId>jdom</groupId>
 			<artifactId>jdom</artifactId>
 		</dependency>
-		
+
 	</dependencies>
 </project>

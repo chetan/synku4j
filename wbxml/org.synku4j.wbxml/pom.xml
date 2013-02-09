@@ -8,6 +8,7 @@
 		<groupId>org.synku4j</groupId>
 		<artifactId>org.synku4j</artifactId>
 		<version>0.2-SNAPSHOT</version>
+		<relativePath>../../parent/</relativePath>
 	</parent>
 	<modules>
 		<module>../org.synku4j.wbxml.core</module>

@@ -10,6 +10,7 @@
 		<artifactId>org.synku4j.wbxml</artifactId>
 		<groupId>org.synku4j.wbxml</groupId>
 		<version>0.2-SNAPSHOT</version>
+		<relativePath>../org.synku4j.wbxml</relativePath>
 	</parent>
 	<dependencies>
 		<dependency>

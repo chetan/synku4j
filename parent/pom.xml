@@ -11,30 +11,9 @@
 		<module>../syncml/org.synku4j.syncml</module>
 	</modules>
 
-	<distributionManagement>
-		<snapshotRepository>
-			<id>synku4j-snapshot</id>
-			<url>http://maven.synku4j.org/archiva/repository/synku4j-snapshot/</url>
-		</snapshotRepository>
-	</distributionManagement>
-	
 	<scm>
 		<connection>scm:svn:https://synku4j.googlecode.com/svn/trunk</connection>
 	</scm>
-	
-	<repositories>
-		<repository>
-			<id>synku4j-snapshot</id>
-			<name>synku4j-snapshot</name>
-			<url>http://maven.synku4j.org/archiva/repository/synku4j-snapshot/</url>
-			<releases>
-				<enabled>false</enabled>
-			</releases>
-			<snapshots>
-				<enabled>true</enabled>
-			</snapshots>
-		</repository>
-	</repositories>
 
 	<dependencyManagement>
 		<dependencies>

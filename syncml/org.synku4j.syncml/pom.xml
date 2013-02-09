@@ -9,6 +9,7 @@
 		<artifactId>org.synku4j</artifactId>
 		<groupId>org.synku4j</groupId>
 		<version>0.2-SNAPSHOT</version>
+		<relativePath>../../parent</relativePath>
 	</parent>
 	<packaging>pom</packaging>
 	<modules>

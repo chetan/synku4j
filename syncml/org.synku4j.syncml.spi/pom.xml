@@ -10,5 +10,6 @@
 		<artifactId>org.synku4j.syncml</artifactId>
 		<groupId>org.synku4j.syncml</groupId>
 		<version>0.2-SNAPSHOT</version>
+		<relativePath>../org.synku4j.syncml</relativePath>
 	</parent>
 </project>

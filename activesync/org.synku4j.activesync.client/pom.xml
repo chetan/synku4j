@@ -9,6 +9,7 @@
 		<groupId>org.synku4j.activesync</groupId>
 		<artifactId>org.synku4j.activesync</artifactId>
 		<version>0.2-SNAPSHOT</version>
+		<relativePath>../org.synku4j.activesync</relativePath>
 	</parent>
 	<dependencies>
 		<!-- interal -->
